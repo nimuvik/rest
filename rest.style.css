@@ -1,4 +1,4 @@
-/*шрифты*/
+/*
 @font-face {
 	font-family: 'Oceanic TRIAL Medium'; 
 	src: local('Oceanic TRIAL Medium'),
@@ -13,7 +13,8 @@
 	font-family: 'Gilroy'; 
 	src: local('Gilroy'),
 		url(./Web2024/Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
-}
+}*/
+
 body {
     background-color: #011845;
 }
