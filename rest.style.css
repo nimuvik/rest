@@ -190,7 +190,7 @@ h2 {
     display: flex;
     gap: 24px;
     flex-direction: row;
-    
+    font-weight: bold;
 }
 .info_2 {
     font-family: 'Gilroy';
