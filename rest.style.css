@@ -1,0 +1,552 @@
+/*шрифты*/
+/*@font-face {
+	font-family: 'Oceanic TRIAL Medium'; 
+	src: local('Oceanic TRIAL Medium'),
+		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf); 
+}
+@font-face {
+	font-family: 'Oceanic TRIAL Regular'; 
+	src: local('Oceanic TRIAL Regular'),
+		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
+}
+@font-face {
+	font-family: 'Gilroy'; 
+	src: local('Gilroy'),
+		url(./Web2024/Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
+}*/
+
+body {
+    background-color: #011845;
+}
+header {
+    background-color: #011845;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    align-items: center;
+    width: 1200px;
+    height: 82px;
+    gap: 100px;
+}
+.container{
+    display: flex;
+    justify-content: space-between; 
+
+}
+.field {
+    display: flex;
+    gap: 200px;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    width: 151px;
+    height: 59px;
+    padding: 10px;
+    display: flex;
+}
+h1 {
+    font-family: 'Oceanic TRIAL Medium';
+    font-size: 28px;
+    color: #E8EDFF;
+    line-height: 39.2px;
+}
+.menu {
+    display: flex;
+    width: 700px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 36px;
+    justify-items: center;
+}
+.item {
+    display: flex;
+    height: 42px;
+    width: 121px;
+    padding: 10px;
+}
+.item1 {
+    display: flex;
+    height: 42px;
+    width: 145px;
+    padding: 10px;
+}
+.menu_item{
+    color: #E8EDFF;
+    line-height: 22.4px;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+}
+
+.basket {
+    display: flex;
+    justify-content: right;
+    height: 56px;
+    width: 56px;
+    padding: 10px;
+    gap: 20px;
+}
+.bag{
+    height: 33.3px;
+    width: 27px;
+    right: 0;
+    position: absolute; 
+    top: 0; 
+}
+.logo2 {
+    text-align: center;
+    font-family: 'Oceanic TRIAL Medium';
+    font-size: 256px;
+    font-weight: 400;
+    color: #496192;
+}
+.fish_restaurant {
+    height: 100px;
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.restaurant {
+    display: flex;
+    justify-items: right;
+}
+h2 {
+    text-align: center;
+    font-family: 'Oceanic TRIAL Medium';
+    font-size: 80px;
+    font-weight: 500;
+    color: #E8EDFF;
+}
+.shrimp {
+    position: absolute;
+    width: 220px;
+    height: 580.98px;
+    z-index: 1;
+    margin-left: 40%;
+}
+.info {
+    position: relative;
+    width: 1200px;
+    height: 189px;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.info1 {
+    width: 370px;
+    height: 189px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column
+}
+.info_1 {
+    font-family: 'Gilroy';
+    width: 370px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.start {
+    width: 285px;
+    height: 74px;
+    padding: 20px;
+    display: flex;
+    gap : 10px;
+    background-color: #E9663D;
+    color: #E8EDFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    align-items: center;
+    justify-content: center
+}
+.fish_and_delivery {
+    width: 387px;
+    height: 130px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    right: 0;
+    position: absolute; 
+    top: 0;             
+}
+.info2 {
+    width: 44px;
+    height: 44px;
+    left: 0;
+}
+.fish, .delivery {
+    width: 387px;
+    height: 50px;
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    
+}
+.info_2 {
+    font-family: 'Gilroy';
+    width: 319px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.history {
+    width: 1200px;
+    height: 650px;
+    margin-top: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.tytle {
+    width: 1200px;
+    height: 100px;
+}
+.zero-one{
+    display: flex;
+    align-items: center;
+}
+.caption {
+    width: 82px;
+    height: 17px;
+    font-family: 'Gilroy';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: #E8EDFF;
+}
+.his1, .his2{
+    font-family: 'Oceanic TRIAL Medium';
+    font-size: 56px;
+    font-weight: 500;
+    color: #E8EDFF;
+    line-height: 58.8px;
+}
+.his1{
+    margin-left: 120px;
+    text-align: left;
+}
+.his2{
+    width: 100%;
+    margin-top: 0px;
+    text-align: left;
+}
+.his_1{
+    width: 1000px;
+}
+.his_2 {
+    width: 1200px;
+}
+.his_0 {
+    width: 90px;
+    height: auto;
+}
+.history_text {
+    width: 488px;
+    height: 195px;
+    left: 120px;
+    display: flex;
+    gap: 20px;
+    margin-top: 150px;
+    flex-direction: column;
+}
+.t {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.know_more {
+    margin-top: 80px;
+    width: 285px;
+    height: 74px;
+    left: 120px;
+    padding: 20px;
+    display: flex;
+    gap : 10px;
+    background-color: #011845;
+    color: #E8EDFF;
+    border: 1px solid #E8EDFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    align-items: center;
+    justify-content: center
+}
+.shef {
+    width: 647px;
+    height: 400px;
+    position: absolute; /* Абсолютное позиционирование для изображения */
+    bottom: 0; /* Привязываем к нижнему краю */
+    right: 120px;
+    top: 1260px
+}
+.osn_menu {
+    display: flex;
+    flex-direction: column;
+    height: 722px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.dishes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    background-color: #496192;
+    align-items: center;
+    height: 391px;
+    left: 120px;
+}
+.about_dish {
+    transform: translateY(-90px);
+    grid-column: 1;
+    margin-left: 200px;
+    width: 386px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    font-family: Oceanic TRIAL Regular;
+    color: #E8EDFF;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: left;
+}
+.sostav {
+    height: 88px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.price_weight {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 386px;
+    height: 25px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-family: 'Gilroy';
+    color: #E8EDFF;
+}
+.price {
+    font-weight: 600;
+    font-size: 18px;
+}
+.weight {
+    font-weight: 400;
+    font-size: 12px;
+}
+.dish {
+    transform: translateY(-50px);
+    grid-column: 2;
+    width: 480px;
+    height: 480px;
+    left: 617px;
+    border-radius: 1000px;
+}
+.strelka1 {
+    width: 7px;
+    height: 14px;
+    transform: translate(100px, 450px);
+}
+.strelka2 {
+    width: 21px;
+    height: 25px;
+    transform: translate(1120px, 450px);
+}
+.go_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.about_delivery {
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.pluses {
+    margin-top: 120px;
+    width: 290px;
+    height: 430px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.opis {
+    margin-bottom: 0px;
+    font-family: 'Oceanic TRIAL Regular';
+    color: #E8EDFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+.min {
+    margin-bottom: 0px;
+}
+.n1 {
+    width: 320px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+}
+.n2 {
+    margin-top: 70px;
+    width: 320px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+}
+.deliv {
+    width: 500px;
+    height: 400px;
+    margin-left: 470px;
+    transform: translateY(-380px);
+}
+.three {
+    width: 320px ;
+    height: 251px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(1020px, -740px);
+}
+.feedback{
+    width: 1200px;
+    height: 524px;
+    margin-top: 600px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+.gord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 665px;
+    height: 88px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+    margin-left: 45%;
+    margin-top: 150px;
+}
+.znachki {
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    align-items: center;
+    bottom: 0;
+    margin-right: 10px;
+    width: 630px;
+    height: 87px;
+    justify-content: right;
+}
+.strelka_1 {
+    width: 15px;
+    height: 15px;
+}
+.strelka_2 {
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+.photos {
+    width: 1200px;
+    height: 260px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.click {
+    width: 180px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9663D;
+}
+.click_info {
+    width: 132px;
+    height: 144px;
+}
+.click_text {
+    width: 135px;
+    height: 54px;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.strel {
+    width: 86px;
+    height: 74px;
+    display: flex;
+    margin-left: 30px;
+}
+.klient {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
+}
+.disconts {
+    display: flex;
+    flex-direction: column;
+    height: 722px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.disk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    background-color: #496192;
+    align-items: center;
+    height: 391px;
+    left: 120px;
+}
+.why {
+    margin-top: 0;
+    height: 88px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.strel1 {
+    width: 7px;
+    height: 14px;
+    transform: translate(100px, 180px);
+}
+.strel2 {
+    width: 21px;
+    height: 25px;
+    transform: translate(620px, 190px);
+}
