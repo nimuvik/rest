@@ -6,7 +6,7 @@
 @font-face {
 	font-family: 'Oceanic TRIAL Regular'; 
 	src: local('Oceanic TRIAL Regular'),
-		url(./Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
+		url(https://github.com/nimuvik/rest/blob/main/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
 }
 @font-face {
 	font-family: 'Gilroy'; 
