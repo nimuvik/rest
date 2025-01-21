@@ -1,3 +1,4 @@
+/*
 @font-face {
 	font-family: 'Oceanic TRIAL Medium'; 
 	src: url('../Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf') format('Oceanic TRIAL Medium');
@@ -12,6 +13,7 @@
 	src: local('Gilroy'),
 		url('../Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf'); 
 }
+*/
 body {
     background-color: #011845;
 }
