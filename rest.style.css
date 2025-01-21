@@ -2,7 +2,7 @@
 @font-face {
 	font-family: 'Oceanic TRIAL Medium'; 
 	src: local('Oceanic TRIAL Medium'),
-		url(https://raw.githubusercontent.com/nimuvik/rest/main/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf);
+		url(../Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf);
 @font-face {
 	font-family: 'Oceanic TRIAL Regular'; 
 	src: local('Oceanic TRIAL Regular'),
