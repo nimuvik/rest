@@ -1,7 +1,6 @@
 @font-face {
 	font-family: 'Oceanic TRIAL Medium'; 
-	src: local('Oceanic TRIAL Medium'),
-		url('../Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf');
+	src: url('../Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf') format('Oceanic TRIAL Medium');
 }
 @font-face {
 	font-family: 'Oceanic TRIAL Regular'; 
