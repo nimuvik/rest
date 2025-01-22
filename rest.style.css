@@ -2,17 +2,17 @@
 @font-face {
 	font-family: 'Oceanic TRIAL Medium'; 
 	src: local('Oceanic TRIAL Medium'),
-		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf); 
+		url(./Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf); 
 }
 @font-face {
 	font-family: 'Oceanic TRIAL Regular'; 
 	src: local('Oceanic TRIAL Regular'),
-		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
+		url(./Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
 }
 @font-face {
 	font-family: 'Gilroy'; 
 	src: local('Gilroy'),
-		url(./Web2024/Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
+		url(./Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
 }
 body {
     background-color: #011845;
