@@ -1,21 +1,23 @@
-/*
+/*шрифты*/
 @font-face {
 	font-family: 'Oceanic TRIAL Medium'; 
-	src: url('../Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf') format('Oceanic TRIAL Medium');
+	src: local('Oceanic TRIAL Medium'),
+		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf); 
 }
 @font-face {
 	font-family: 'Oceanic TRIAL Regular'; 
 	src: local('Oceanic TRIAL Regular'),
-		url('..Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf'); 
+		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
 }
 @font-face {
 	font-family: 'Gilroy'; 
 	src: local('Gilroy'),
-		url('../Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf'); 
+		url(./Web2024/Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
 }
-*/
 body {
     background-color: #011845;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #011845;
@@ -45,13 +47,20 @@ header {
     width: 151px;
     height: 59px;
     padding: 10px;
-    display: flex;
 }
-h1 {
-    font-family: 'Oceanic TRIAL Medium';
+.hello {
+    font-family: 'Oceanic TRIAL Regular';
     font-size: 28px;
     color: #E8EDFF;
     line-height: 39.2px;
+    font-weight: 400;   
+}
+h1 {
+    font-family: 'Oceanic TRIAL Regular';
+    font-size: 28px;
+    color: #E8EDFF;
+    line-height: 39.2px;
+    font-weight: 400;
 }
 .menu {
     display: flex;
@@ -65,7 +74,7 @@ h1 {
 .item {
     display: flex;
     height: 42px;
-    width: 121px;
+    width: 110px;
     padding: 10px;
 }
 .item1 {
@@ -94,8 +103,11 @@ h1 {
     height: 33.3px;
     width: 27px;
     right: 0;
-    position: absolute; 
+    position: relative; 
     top: 0; 
+}
+.banner {
+    height: auto;
 }
 .logo2 {
     text-align: center;
@@ -106,14 +118,19 @@ h1 {
 }
 .fish_restaurant {
     height: 100px;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 120px;
+    margin-right: 120px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .restaurant {
     display: flex;
     justify-items: right;
+}
+button {
+    font-family: 'Gilroy';
+    font-size: 24px;
 }
 h2 {
     text-align: center;
@@ -128,6 +145,7 @@ h2 {
     height: 580.98px;
     z-index: 1;
     margin-left: 40%;
+    filter: drop-shadow(0px 0px 250px rgb(255, 255, 255));
 }
 .info {
     position: relative;
@@ -162,7 +180,6 @@ h2 {
     gap : 10px;
     background-color: #E9663D;
     color: #E8EDFF;
-    font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
@@ -174,9 +191,10 @@ h2 {
     display: flex;
     gap: 30px;
     flex-direction: column;
-    right: 0;
     position: absolute; 
-    top: 0;             
+    top: 0;   
+    right: 0; 
+    left: 1020px         
 }
 .info2 {
     width: 44px;
@@ -189,6 +207,8 @@ h2 {
     display: flex;
     gap: 24px;
     flex-direction: row;
+    align-items: center;
+    
 }
 .info_2 {
     font-family: 'Gilroy';
@@ -201,7 +221,7 @@ h2 {
 .history {
     width: 1200px;
     height: 650px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -212,6 +232,20 @@ h2 {
 .zero-one{
     display: flex;
     align-items: center;
+    height: 80px;
+    margin-top: 50px;
+}
+.zero-one1{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 250px;
+}
+.zero-one3{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 100px;
 }
 .caption {
     width: 82px;
@@ -254,7 +288,7 @@ h2 {
     left: 120px;
     display: flex;
     gap: 20px;
-    margin-top: 150px;
+    margin-top: 100px;
     flex-direction: column;
 }
 .t {
@@ -274,11 +308,27 @@ h2 {
     background-color: #011845;
     color: #E8EDFF;
     border: 1px solid #E8EDFF;
-    font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    filter: drop-shadow(-150px 0px 200px rgb(255, 255, 255));
+}
+.know_more1{
+    margin-top: 80px;
+    width: 285px;
+    height: 74px;
+    left: 120px;
+    padding: 20px;
+    display: flex;
+    gap : 10px;
+    background-color: #011845;
+    color: #E8EDFF;
+    border: 1px solid #E8EDFF;
+    font-weight: 500;
+    line-height: 33.6px;
+    align-items: center;
+    justify-content: center;
 }
 .shef {
     width: 647px;
@@ -292,7 +342,7 @@ h2 {
     display: flex;
     flex-direction: column;
     height: 722px;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -315,7 +365,7 @@ h2 {
     flex-direction: column;
 }
 h3 {
-    font-family: Oceanic TRIAL Regular;
+    font-family: 'Oceanic TRIAL Regular';
     color: #E8EDFF;
     font-weight: 400;
     font-size: 36px;
@@ -334,7 +384,7 @@ h3 {
     width: 386px;
     height: 25px;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: 'Gilroy';
     color: #E8EDFF;
 }
@@ -357,21 +407,20 @@ h3 {
 .strelka1 {
     width: 7px;
     height: 14px;
-    transform: translate(100px, 450px);
+    transform: translate(100px, 180px);
 }
 .strelka2 {
     width: 21px;
     height: 25px;
-    transform: translate(1120px, 450px);
+    transform: translate(620px, 180px);
 }
 .go_menu {
     display: flex;
     justify-content: center;
 }
-
 .about_delivery {
     height: 700px;
-    margin-top: 150px;
+    margin-top: 220px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -383,7 +432,7 @@ h3 {
     gap: 50px;
     flex-direction: column;
 }
-.opis {
+h4 {
     margin-bottom: 0px;
     font-family: 'Oceanic TRIAL Regular';
     color: #E8EDFF;
@@ -411,23 +460,23 @@ h3 {
     height: 400px;
     margin-left: 470px;
     transform: translateY(-380px);
+    filter: drop-shadow(0px 0px 150px rgba(255, 255, 255, 0.261));
 }
 .three {
     width: 320px ;
     height: 251px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     transform: translate(1020px, -740px);
 }
 .feedback{
-    width: 1200px;
     height: 524px;
-    margin-top: 600px;
+    margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 .text_cont {
@@ -467,13 +516,13 @@ h3 {
     height: 15px;
 }
 .strelka_2 {
-    margin-left: 30px;
+    margin-left: 35px;
     width: 25px;
     height: 25px;
 }
 .photos {
-    width: 1200px;
     height: 260px;
+    right: 120px;
     left: 120px;
     display: flex;
     flex-direction: row;
@@ -488,6 +537,7 @@ h3 {
     align-items: center;
     justify-content: center;
     background-color: #E9663D;
+    filter: drop-shadow(-150px 0px 200px rgba(255, 255, 255, 0.672));
 }
 .click_info {
     width: 132px;
@@ -509,7 +559,7 @@ h3 {
     margin-left: 30px;
 }
 .klient {
-    width: 200px;
+    width: 180px;
     height: 260px;
     object-fit: cover;
     margin-left: 20px;
@@ -518,7 +568,7 @@ h3 {
     display: flex;
     flex-direction: column;
     height: 722px;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -542,7 +592,7 @@ h3 {
 .strel1 {
     width: 7px;
     height: 14px;
-    transform: translate(100px, 180px);
+    transform: translate(100px, 190px);
 }
 .strel2 {
     width: 21px;
@@ -615,6 +665,7 @@ label {
     margin-bottom: 20px;
 }
 .book{
+    filter: drop-shadow(-350px 200px 150px rgba(255, 255, 255, 0.6));
     margin-top: 30px;
     width: 590px;
     height: 74px;
@@ -623,12 +674,10 @@ label {
     gap : 10px;
     background-color: #E9663D;
     color: #E8EDFF;
-    font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
     justify-content: center;
-    font-family: 'Gilroy';
     margin-left: 15px;
 }
 .dish3 {
@@ -636,8 +685,8 @@ label {
     height: 470px;
     margin-left: 750px;
     position: absolute; 
-    top: 5875px; 
-    right: 120px;
+    top: 5625px; 
+    right: 150px;
 }
 .media {
     display: flex;
@@ -647,7 +696,7 @@ label {
     display: flex;
     flex-direction: column;
     height: 900px;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -725,10 +774,8 @@ label {
 }
 
 footer {
-    left: 0;
-    bottom: 0;
     width: auto;
-    margin-top: 657px;
+    margin-top: 200px;
     height: 637px;
     background-color: #4164AB ;
     padding-top: 60px;
