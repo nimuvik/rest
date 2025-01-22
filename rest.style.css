@@ -165,7 +165,7 @@ h2 {
     height: 580.98px;
     z-index: 1;
     margin-left: 40%;
-    filter: drop-shadow(0px 0px 250px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 400px rgb(255, 255, 255));
 }
 
 .info {
@@ -354,7 +354,7 @@ h2 {
     line-height: 33.6px;
     align-items: center;
     justify-content: center;
-    filter: drop-shadow(-150px 0px 200px rgb(255, 255, 255));
+    filter: drop-shadow(-150px 0px 300px rgb(255, 255, 255));
 }
 
 .know_more1 {
@@ -521,7 +521,7 @@ h4 {
     height: 400px;
     margin-left: 470px;
     transform: translateY(-380px);
-    filter: drop-shadow(0px 0px 150px rgba(255, 255, 255, 0.261));
+    filter: drop-shadow(0px 0px 200px rgba(255, 255, 255, 0.261));
 }
 
 .three {
@@ -607,7 +607,7 @@ h4 {
     align-items: center;
     justify-content: center;
     background-color: #E9663D;
-    filter: drop-shadow(-150px 0px 200px rgba(255, 255, 255, 0.672));
+    filter: drop-shadow(-150px 0px 250px rgba(255, 255, 255, 0.672));
 }
 
 .click_info {
@@ -754,7 +754,7 @@ label {
 }
 
 .book {
-    filter: drop-shadow(-350px 200px 150px rgba(255, 255, 255, 0.6));
+    filter: drop-shadow(-350px 200px 200px rgba(255, 255, 255, 0.6));
     margin-top: 30px;
     width: 590px;
     height: 74px;
