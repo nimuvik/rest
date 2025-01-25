@@ -1,20 +1,17 @@
 /*шрифты*/
 @font-face {
 	font-family: 'Oceanic TRIAL Medium'; 
-	src: local('Oceanic TRIAL Medium'),
-		url(./Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf); 
+	src: local('Oceanic TRIAL Medium'), url(./Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf); 
 }
 
 @font-face {
 	font-family: 'Oceanic TRIAL Regular'; 
-	src: local('Oceanic TRIAL Regular'),
-		url(./Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
+	src: local('Oceanic TRIAL Regular'), url(./Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
 }
 
 @font-face {
 	font-family: 'Gilroy'; 
-	src: local('Gilroy'),
-		url(./Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
+	src: local('Gilroy'), url(./Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
 }
 
 body {
@@ -23,21 +20,22 @@ body {
     padding: 0;
 }
 
+/* Шапка */
 header {
     background-color: #011845;
     display: flex;
     justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px ;
     align-items: center;
     width: 1200px;
     height: 82px;
     gap: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between; 
 }
@@ -57,16 +55,16 @@ header {
 
 .hello {
     font-family: 'Oceanic TRIAL Regular';
-    font-size: 32px;
     color: #E8EDFF;
+    font-size: 32px;
     line-height: 39.2px;
     font-weight: 400;   
 }
 
 h1 {
     font-family: 'Oceanic TRIAL Regular';
-    font-size: 40px;
     color: #E8EDFF;
+    font-size: 40px;
     line-height: 39.2px;
     font-weight: 400;
 }
@@ -112,7 +110,7 @@ h1 {
     gap: 20px;
 }
 
-.bag{
+.bag {
     height: 33.3px;
     width: 27px;
     right: 0;
@@ -125,14 +123,14 @@ h1 {
 }
 
 .logo2 {
-    text-align: center;
     font-family: 'Oceanic TRIAL Medium';
+    text-align: center;
     font-size: 256px;
     font-weight: 400;
     color: #496192;
 }
 
-.fish_restaurant {
+.fish_rest {
     height: 100px;
     margin-left: 120px;
     margin-right: 120px;
@@ -152,14 +150,14 @@ button {
 }
 
 h2 {
-    text-align: center;
     font-family: 'Oceanic TRIAL Medium';
+    text-align: center;
     font-size: 80px;
     font-weight: 500;
     color: #E8EDFF;
 }
 
-.shrimp {
+.krevetka {
     position: absolute;
     width: 220px;
     height: 580.98px;
@@ -196,14 +194,29 @@ h2 {
     color: #E8EDFF;
 }
 
+.info2 {
+    width: 44px;
+    height: 44px;
+    left: 0;
+}
+
+.info_2 {
+    color: #E8EDFF;
+    font-family: 'Gilroy';
+    width: 319px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
 .start {
+    color: #E8EDFF;
     width: 285px;
     height: 74px;
     padding: 20px;
     display: flex;
     gap : 10px;
     background-color: #E9663D;
-    color: #E8EDFF;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
@@ -219,13 +232,7 @@ h2 {
     position: absolute; 
     top: 0;   
     right: 0; 
-    left: 1020px         
-}
-
-.info2 {
-    width: 44px;
-    height: 44px;
-    left: 0;
+    left: 1020px;         
 }
 
 .fish, .delivery {
@@ -237,16 +244,7 @@ h2 {
     align-items: center;
 }
 
-.info_2 {
-    font-family: 'Gilroy';
-    width: 319px;
-    height: 50px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #E8EDFF;
-}
-
-.history {
+.about {
     width: 1200px;
     height: 650px;
     margin-top: 150px;
@@ -259,21 +257,21 @@ h2 {
     height: 100px;
 }
 
-.zero-one {
+.fish_fish {
     display: flex;
     align-items: center;
     height: 80px;
     margin-top: 50px;
 }
 
-.zero-one1 {
+.fish_fish1 {
     display: flex;
     align-items: center;
     height: 80px;
     margin-top: 250px;
 }
 
-.zero-one3 {
+.fish_fish2 {
     display: flex;
     align-items: center;
     height: 80px;
@@ -281,16 +279,16 @@ h2 {
 }
 
 .caption {
+    font-family: 'Gilroy';
+    color: #E8EDFF;
     width: 82px;
     height: 17px;
-    font-family: 'Gilroy';
     font-size: 12px;
     font-weight: 500;
     line-height: 16.8px;
-    color: #E8EDFF;
 }
 
-.his1, .his2 {
+.history1, .history2 {
     font-family: 'Oceanic TRIAL Medium';
     font-size: 56px;
     font-weight: 500;
@@ -298,31 +296,31 @@ h2 {
     line-height: 58.8px;
 }
 
-.his1 {
+.history1 {
     margin-left: 130px;
     text-align: left;
 }
 
-.his2 {
+.history2 {
     width: 100%;
     margin-top: 0px;
     text-align: left;
 }
 
-.his_1 {
+.history_1 {
     width: 1000px;
 }
 
-.his_2 {
+.history_2 {
     width: 1200px;
 }
 
-.his_0 {
+.history_0 {
     width: 90px;
     height: auto;
 }
 
-.history_text {
+.about_text {
     width: 488px;
     height: 195px;
     left: 120px;
@@ -340,6 +338,7 @@ h2 {
 }
 
 .know_more {
+    background-color: #011845;
     margin-top: 80px;
     width: 285px;
     height: 74px;
@@ -347,7 +346,6 @@ h2 {
     padding: 20px;
     display: flex;
     gap : 10px;
-    background-color: #011845;
     color: #E8EDFF;
     border: 1px solid #E8EDFF;
     font-weight: 500;
@@ -374,7 +372,7 @@ h2 {
     justify-content: center;
 }
 
-.shef {
+.krutoi_muzhchina {
     width: 647px;
     height: 400px;
     position: absolute; 
@@ -382,7 +380,7 @@ h2 {
     right: 120px;
     top: 1260px
 }
-.osn_menu {
+.osnovnoe_menu {
     display: flex;
     flex-direction: column;
     height: 722px;
@@ -419,9 +417,9 @@ h3 {
     text-align: left;
 }
 
-.sostav {
-    height: 88px;
+.structure {
     font-family: 'Gilroy';
+    height: 88px;
     font-weight: 400;
     font-size: 18px;
     color: #E8EDFF;
@@ -457,13 +455,13 @@ h3 {
     border-radius: 1000px;
 }
 
-.strelka1 {
+.strelka_1 {
     width: 7px;
     height: 14px;
     transform: translate(100px, 180px);
 }
 
-.strelka2 {
+.strelka_2 {
     width: 21px;
     height: 25px;
     transform: translate(620px, 180px);
@@ -474,7 +472,7 @@ h3 {
     justify-content: center;
 }
 
-.about_delivery {
+.ab_delivery {
     height: 700px;
     margin-top: 220px;
     margin-left: 120px;
@@ -501,14 +499,14 @@ h4 {
     margin-bottom: 0px;
 }
 
-.n1 {
+.num1 {
     width: 320px;
     height: 201px;
     display: flex;
     flex-direction: column;
 }
 
-.n2 {
+.num2 {
     margin-top: 70px;
     width: 320px;
     height: 147px;
@@ -524,7 +522,7 @@ h4 {
     filter: drop-shadow(0px 0px 200px rgba(255, 255, 255, 0.261));
 }
 
-.three {
+.num3 {
     width: 320px ;
     height: 251px;
     margin-left: 100px;
@@ -533,7 +531,7 @@ h4 {
     transform: translate(1020px, -740px);
 }
 
-.feedback{
+.review {
     height: 524px;
     margin-top: 200px;
     margin-left: 120px;
@@ -551,7 +549,7 @@ h4 {
     width: 1200px;
 }
 
-.gord {
+.pride {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -566,7 +564,7 @@ h4 {
     margin-top: 150px;
 }
 
-.znachki {
+.znaki {
     display: flex;
     flex-direction: row;
     margin-top: 180px;
@@ -625,21 +623,7 @@ h4 {
     color: #E8EDFF;
 }
 
-.strel {
-    width: 86px;
-    height: 74px;
-    display: flex;
-    margin-left: 30px;
-}
-
-.klient {
-    width: 180px;
-    height: 260px;
-    object-fit: cover;
-    margin-left: 20px;
-}
-
-.disconts {
+.discount {
     display: flex;
     flex-direction: column;
     height: 722px;
@@ -658,7 +642,21 @@ h4 {
     left: 120px;
 }
 
-.why {
+.strel {
+    width: 86px;
+    height: 74px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.client {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.order {
     margin-top: 0;
     height: 88px;
     font-family: 'Gilroy';
@@ -679,7 +677,7 @@ h4 {
     transform: translate(620px, 190px);
 }
 
-.booking {
+.reservation {
     display: flex;
     flex-direction: column;
     height: 722px;
@@ -694,7 +692,7 @@ fieldset {
     border: 0;
 }
 
-.first_reg {
+.registration1 {
     width: 580px;
     height: 93px;
     display: flex;
@@ -718,7 +716,7 @@ label {
     color: #E8EDFF;
 }
 
-.second_reg {
+.registration2 {
     width: 580px;
     height: 93px;
     display: flex;
@@ -735,7 +733,7 @@ label {
     margin-bottom: 20px;
 }
 
-.third_reg {
+.registration3 {
     width: 580px;
     height: 210px;
     display: flex;
@@ -744,7 +742,7 @@ label {
     margin-top: 20px;
 }
 
-.threee {
+.three {
     border: 1px solid #E8EDFF;
     background-color: #011845;
     width: 580px;
@@ -753,7 +751,7 @@ label {
     margin-bottom: 20px;
 }
 
-.book {
+.reserv {
     filter: drop-shadow(-350px 200px 200px rgba(255, 255, 255, 0.6));
     margin-top: 30px;
     width: 590px;
@@ -793,13 +791,13 @@ label {
     margin-right: 120px;
 }
 
-.photo_chink {
+.photo_napitochki {
     margin-top: 150px;
     width: 550px;
     height: 470px;
 }
 
-.chink {
+.napitochki {
     width: 550px;
     height: 600px;
     object-fit: cover;
@@ -831,6 +829,22 @@ label {
     gap: 8px;
 }
 
+.contact3 {
+    width: 300px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.contact4 {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .phone {
     width: 28px;
     height: 28px;
@@ -848,32 +862,16 @@ label {
     flex-direction: column;
 }
 
-.contact3 {
-    width: 300px;
-    height: 28px;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-}
-
 .adres {
     width: 22px;
     height: 28px;
-}
-
-.contact4 {
-    width: 300px;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
 }
 
 .soc {
     margin-top: 70px;
 }
 
-.inst, .tg, .vk, .youtube {
+.instagram, .telegram, .vk, .youtube {
     width: 60px;
     height: 60px;
 }
@@ -891,7 +889,7 @@ footer {
     grid-template-columns: auto auto auto;
 }
 
-.about_restaurant {
+.about_rest {
     grid-row: 1;
     display: grid;
     grid-template-columns: 400px 400px 400px;
@@ -899,6 +897,17 @@ footer {
 
 .r {
     margin-top: 0;
+}
+
+.st {
+    grid-column: 1;
+}
+
+.en {
+    position: absolute;
+    right: 220px;
+    grid-column: 2;
+    justify-items: right;
 }
 
 .rest {
@@ -944,15 +953,4 @@ footer {
     height: 25px;
     display: grid;
     grid-template-columns: auto auto;
-}
-
-.st {
-    grid-column: 1;
-}
-
-.en {
-    position: absolute;
-    right: 220px;
-    grid-column: 2;
-    justify-items: right;
 }
