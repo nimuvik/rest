@@ -1,0 +1,823 @@
+@font-face {
+    font-family: oceanic trial;
+    src: url(fonts/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(fonts/Gilroy-Light.otf);
+}
+body{
+    background-color: #011845;
+    color: #E8EDFF;
+    font-family: gilroy;
+}
+header{
+    display: flex;
+}
+header ul{
+    display: flex;
+}
+.header-logo{
+    font-size: 28px;
+    font-family: oceanic trial;
+    position: relative;
+    left: 120px;
+}
+.menu{
+    font-size: 16px;
+    margin-left: 300px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    margin-left: 50px;
+}
+header img{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+.grad1{
+    width: 617px;
+    height: 617px;
+    border-radius: 500px;
+    background-color: #4164AB;
+    opacity: 0.4;
+    filter: blur(120px);
+    position: relative;
+    left: 430px;
+}
+.bl1-back-text{
+    font-size: 236px;
+    font-family: oceanic trial;
+    color: #496192;
+    position: relative;
+    top: -860px;
+    text-align: center;
+}
+.img-shrimp{
+    height: 581px;
+    width: 220px;
+    position: relative;
+    top:-1300px;
+    left: 600px;
+}
+.block1-h{
+    font-family: oceanic trial;
+    word-spacing: 400px;
+    font-size: 80px;
+    position: relative;
+    top: -1760px;
+    left: 125px;
+    width: 1300px;
+}
+.block1-text1{
+    position: relative;
+    top: -1770px;
+    left: 130px;
+    width: 700px;
+}
+.block1-1-p{
+    font-size: 18px;
+    text-align: left;
+    width: 380px;
+    line-height: 1.4;
+}
+.block1-menu{
+    width: 285px;
+    height: 74px;
+    background-color: #E9663D;
+    text-align: center;
+    font-size: 24px;
+}
+.block1-menu p{
+    position: relative;
+    top: 25px;
+}
+.block1-text2{
+    position: relative;
+    top:-1965px;
+    left: 900px;
+    width: 500px;
+}
+.block1-text2 div{
+    display: flex;
+    position: relative;
+    left: 80px;
+}
+.block1-text2 p{
+    text-align: left;
+    font-size: 18px;
+    width: 320px;
+    line-height: 1.4;
+}
+.block1-text2 img{
+    width: 44px;
+    height: 44px;
+    position: relative;
+    top: 20px;
+    margin-right: 30px;
+}
+.block2{
+    position: relative;
+    top: -30px;
+}
+.grad2{
+    width: 506px;
+    height: 456px;
+    border-radius: 500px;
+    background-color: #4164AB;
+    opacity: 0.4;
+    filter: blur(120px);
+    position: relative;
+    top: -1600px;
+    left: -200px;
+}
+.text-about{
+    font-size: 12px;
+    position: relative;
+    top: -2150px;
+    left: 130px;
+    width: 400px;
+}
+.text-story{
+    font-family: oceanic trial;
+    font-size: 56px;
+    position: relative;
+    top: -2245px;
+    left: 330px;
+    width: 700px;
+}
+.text-iskush{
+    font-family: oceanic trial;
+    font-size: 56px;
+    position: relative;
+    top: -2315px;
+    left: 130px;
+    width: 700px;
+}
+.block2-text{
+    font-size: 18px;
+    text-align: left;
+    width: 500px;
+    line-height: 1.4;
+    position: relative;
+    top: -2300px;
+    left: 130px;
+}
+.block2-btn{
+    width: 285px;
+    height: 74px;
+    border: 1px solid #E8EDFF;
+    background-color: #011845;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: -2250px;
+    left: 130px;
+}
+.cook{
+    width: 647px;
+    height: 401px;
+    position: relative;
+    top: -2635px;
+    left: 722px;
+}
+.block3{
+    position: relative;
+    top: -2400px;
+}
+.text-menu{
+    font-size: 12px;
+    position: relative;
+    top: -100px;
+    left: 130px;
+    width: 600px;
+}
+.text-bluda{
+    font-size: 56px;
+    font-family: oceanic trial;
+    position: relative;
+    top: -200px;
+    left: 330px;
+    width: 1000px;
+}
+.text-zapomn{
+    font-size: 56px;
+    font-family: oceanic trial;
+    position: relative;
+    top: -265px;
+    left: 130px;
+    width: 1000px;
+}
+.block3-back{
+    width: 1240px;
+    height: 431px;
+    background-color: #496192;
+    position: relative;
+    left: 130px;
+    top: -245px;
+}
+.block3-main-h{
+    font-size: 36px;
+    font-family: oceanic trial;
+    position: relative;
+    top: 10px;
+}
+.block3-main-text{
+    font-size: 18px;
+    text-align: left;
+    width: 390px;
+    line-height: 1.4;
+}
+.properties{
+    display: flex;
+}
+.cost{
+    font-weight: bold;
+    font-size: 18px;
+}
+.weight{
+    font-size: 12px;
+    position: relative;
+    left: 260px;
+    top: 14px;
+}
+.block3-main-btn{
+    width: 180px;
+    height: 65px;
+    background-color: #E9663D;
+    text-align: center;
+    font-size: 18px;
+}
+.block3-main-btn p{
+    position: relative;
+    top: 20px;
+}
+.block3-main{
+    position: relative;
+    left: 105px;
+    top: 45px;
+}
+.img-food{
+    width: 480px;
+    height: 480px;
+    border-radius: 400px;
+    position: relative;
+    left: 640px;
+    top: -360px;
+}
+.arrows{
+    position: relative;
+    top: -615px;
+    left: 37px;
+}
+.arrows img{
+    width: 21px;
+    height: 24px;
+}
+.next{
+    position: relative;
+    left: 1120px;
+}
+.block3-btn{
+    width: 285px;
+    height: 74px;
+    background-color: #011845;
+    border: 1px solid #E8EDFF;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -165px;
+    left: 600px;
+}
+.block4{
+    position: relative;
+    top: -3000px;
+}
+.text-delivery{
+    font-size: 12px;
+    position: relative;
+    left: 130px;
+    width: 500px;
+}
+.text-fast{
+    font-size: 56px;
+    font-family: oceanic trial;
+    position: relative;
+    left: 330px;
+    top: -100px;
+    width: 1000px;
+}
+.text-moscow{
+    font-size: 56px;
+    font-family: oceanic trial;
+    position: relative;
+    left: 130px;
+    top: -160px;
+    width: 1000px;
+}
+.grad4{
+    width: 606px;
+    height: 606px;
+    border-radius: 500px;
+    background-color: #4164AB;
+    opacity: 0.4;
+    filter: blur(120px);
+    position: relative;
+    top: 750px;
+    left: 430px;
+}
+.number{
+    font-size: 36px;
+    font-family: oceanic trial;
+}
+.block4-h{
+    font-size: 24px;
+    font-family: oceanic trial;
+    text-align: left;
+    width: 320px;
+    position: relative;
+    top: -30px;
+}
+.block4-text{
+    font-size: 18px;
+    text-align: left;
+    width: 310px;
+    line-height: 1.4;
+    position: relative;
+    top: -32px;
+}
+.block4-text1{
+    width: 500px;
+    position: relative;
+    left: 130px;
+    top: -160px;
+}
+.block4-text2{
+    width: 500px;
+    position: relative;
+    left: 130px;
+    top: -140px;
+}
+.block4-text3{
+    width: 450px;
+    position: relative;
+    left: 1020px;
+    top: -575px;
+}
+.img-moto{
+    width: 480px;
+    height: 430px;
+    position: relative;
+    left: 490px;
+    top: -950px;
+}
+.block5{
+    position: relative;
+    top: -4400px;
+}
+.text-otz{
+    font-size: 12px;
+    position: relative;
+    left: 130px;
+    width: 700px;
+}
+.text-besc{
+    font-size: 56px;
+    position: relative;
+    left: 330px;
+    top: -100px;
+    font-family: oceanic trial;
+    width: 1000px;
+}
+.text-doc{
+    font-size: 56px;
+    position: relative;
+    left: 130px;
+    top: -160px;
+    font-family: oceanic trial;
+    width: 1300px;
+}
+.grad5{
+    width: 606px;
+    height: 606px;
+    border-radius: 500px;
+    background-color: #4164AB;
+    opacity: 0.4;
+    filter: blur(120px);
+    position: relative;
+    left: -200px;
+    top: 750px;
+}
+.block5-text{
+    text-align: left;
+    font-size: 18px;
+    width: 380px;
+    position: relative;
+    top: -175px;
+    left: 530px;
+    line-height: 1.4;
+}
+.arrows2 img{
+    width: 21px;
+    height: 24px;
+    margin-left: 40px;
+}
+.arrows2{
+    position: relative;
+    top:-220px;
+    left: 1215px;
+    width: 200px;
+}
+.reviews{
+    display: flex;
+}
+.orange-review{
+    background-color: #E9663D;
+    width: 180px;
+    height: 260px;
+    text-align: center;
+    font-size: 18px;
+}
+.orange-review p{
+    position: relative;
+    top: 37px;
+}
+.orange-review img{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    top: 30px;
+}
+.reviews div{
+    margin-right: 25px;
+    position: relative;
+    top: -175px;
+    left: 130px;
+}
+.block6{
+    position: relative;
+    top: -4420px;
+    width: 1300px;
+}
+.text-acs{
+    font-size: 12px;
+    position: relative;
+    left: 130px;
+}
+.text-oazis{
+    font-family: oceanic trial;
+    font-size: 56px;
+    position: relative;
+    left: 330px;
+    width: 1000px;
+    top: -100px;
+}
+.text-predl{
+    font-family: oceanic trial;
+    font-size: 56px;
+    position: relative;
+    left: 130px;
+    width: 1000px;
+    top: -165px;
+}
+.block6-back{
+    width: 1200px;
+    height: 389px;
+    background-color: #496192;
+    position: relative;
+    top: -160px;
+    left: 130px;
+}
+.img-food2{
+    position: relative;
+    left: 620px;
+    border-radius: 500px;
+    top: -370px;
+    width: 480px;
+    height: 480px;
+}
+.block6-main{
+    width: 386px;
+    position: relative;
+    top: 45px;
+    left: 110px;
+}
+.block6-main-h1{
+    font-size: 36px;
+    font-family: oceanic trial;
+}
+.block6-main-h2{
+    font-size: 36px;
+    font-family: oceanic trial;
+    position: relative;
+    top: -35px;
+}
+.block6-main-text{
+    font-size: 18px;
+    position: relative;
+    top: -45px;
+}
+.block6-main-btn{
+    width: 230px;
+    height: 65px;
+    background-color: #E9663D;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: -30px;
+}
+.block6-main-btn p{
+    position: relative;
+    top: 20px;
+}
+.arrows3{
+    position: relative;
+    top: -620px;
+    left: 35px;
+    width: 1200px;
+}
+.next3{
+    position: relative;
+    left: 1080px;
+}
+.block7{
+    position: relative;
+    top: -4400px;
+}
+.text-bron{
+    font-size: 12px;
+    position: relative;
+    left: 130px;
+    width: 400px;
+}
+.text-zabron{
+    font-family: oceanic trial;
+    font-size: 56px;
+    position: relative;
+    left: 330px;
+    top: -100px;
+    width: 1000px;
+}
+.text-luchsh{
+    font-family: oceanic trial;
+    font-size: 56px;
+    position: relative;
+    left: 130px;
+    top: -165px;
+    width: 1000px;
+}
+.line1{
+    display: flex;
+}
+.line2{
+    display: flex;
+}
+input{
+    margin-right: 20px;
+    background-color: #011845;
+    border: 1px solid #E8EDFF;
+    margin-top: -10px;
+}
+form p{
+    font-size: 18px;
+}
+.line1 input{
+    width: 285px;
+    height: 60px;
+    color: #E8EDFF;
+    font-size: 18px;
+}
+.line2 input{
+    width: 181px;
+    height: 60px;
+    color: #E8EDFF;
+    font-size: 18px;
+}
+.line3 input{
+    width: 590px;
+    height: 177px;
+    color: #E8EDFF;
+    font-size: 18px;
+}
+form{
+    position: relative;
+    left: 130px;
+    width: 800px;
+    top: -160px;
+}
+.img-bron{
+    position: relative;
+    left: 800px;
+    top: -595px;
+}
+.bron-btn{
+    width: 590px;
+    height: 74px;
+    background-color: #E9663D;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -620px;
+    left: 130px;
+}
+.bron-btn p{
+    position: relative;
+    top: 20px;
+}
+.grad8{
+    width: 606px;
+    height: 606px;
+    border-radius: 500px;
+    background-color: #4164AB;
+    opacity: 0.4;
+    filter: blur(120px);
+    position: relative;
+    left: -250px;
+    top: -5000px;
+}
+.block8{
+    position: relative;
+    left: 130px;
+    top: -5460px;
+    width: 1200px;
+}
+.text-contacts{
+    font-size: 12px;
+}
+.text-sea{
+    position: relative;
+    left: 200px;
+    top: -100px;
+    font-family: oceanic trial;
+    font-size: 56px;
+    width: 900px;
+}
+.text-people{
+    position: relative;
+    top: -165px;
+    font-family: oceanic trial;
+    font-size: 56px;
+    width: 900px;
+}
+.tel{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+.map{
+    display: flex;
+}
+.que{
+    font-size: 36px;
+    font-family: oceanic trial;
+    line-height: 38px;
+}
+.tel img{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    position: relative;
+    top: 15px;
+}
+.tel p{
+    font-size: 18px;
+}
+.email img{
+    width: 28px;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 19px;
+}
+.email p{
+    font-size: 18px;
+}
+.address{
+    font-size: 36px;
+    font-family: oceanic trial;
+}
+.map img{
+    width: 20px;
+    height: 28px;
+    margin-right: 10px;
+    position: relative;
+    top: 19px;
+}
+.map p{
+    font-size: 18px;
+}
+.social{
+    font-family: oceanic trial;
+    font-size: 36px;
+    line-height: 38px;
+}
+.medias img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+.tel{
+    position: relative;
+    top: -30px;
+}
+.email{
+    position: relative;
+    top: -48px;
+}
+.block-address{
+    position: relative;
+    top: -63px;
+}
+.map{
+    position: relative;
+    top: -40px;
+}
+.map p{
+    position: relative;
+    top: 4px;
+}
+.block-social{
+    position: relative;
+    top: -105px;
+}
+.medias{
+    position: relative;
+    top: -15px;
+}
+.contacts{
+    position: relative;
+    top: -150px;
+    left: 710px;
+    width: 600px;
+}
+.contacts-img{
+    position: relative;
+    top: -766px;
+}
+footer{
+    width: 1530px;
+    height: 637px;
+    position: relative;
+    top:-6350px;
+    left: -20px;
+    background-color:#26548E;
+}
+.footer-back{
+    font-family: oceanic trial;
+    font-size: 250px;
+    color: #011845;
+    opacity: 0.4;
+    text-align: center;
+    position: relative;
+    top: 230px;
+}
+.years{
+    font-size: 18px;
+    position: relative;
+    left: 90px;
+    top: -480px;
+    width: 400px;
+}
+.about-rest{
+    font-size: 24px;
+    font-family: oceanic trial;
+}
+.footer-about{
+    position: relative;
+    left: 800px;
+    top: -525px;
+    width: 600px;
+}
+.for-visitors{
+    font-size: 24px;
+    font-family: oceanic trial;
+}
+.footer-poset{
+    position: relative;
+    left: 1150px;
+    top: -725px;
+    width: 300px;
+}
+.policy{
+    font-size: 18px;
+    position: relative;
+    left: 90px;
+    top: -450px;
+    width: 800px;
+}
+.design{
+    font-size: 18px;
+    position: relative;
+    left: 1200px;
+    top: -488px;
+    width: 200px;
+}
+body{
+    height: 6960px;
+}
