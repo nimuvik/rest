@@ -835,15 +835,50 @@ body{
     color: #E8EDFF;
 }
 
+/* Корректировка десктопной компоновки (если что-то сбилось) */
+header {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 28px;
+    font-family: oceanic trial;
+    position: relative;
+    left: 120px;
+}
+
+.menu {
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin-left: 50px;
+}
+
+header img {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+
 /* Адаптивность для планшетов (≤992px) */
 @media (max-width: 992px) {
-    .container {
-        max-width: 750px;
-        padding: 0 15px;
-    }
-
     .header-logo {
         font-size: 24px;
+        left: 15px;
+    }
+
+    .menu {
+        margin-left: auto;
     }
 
     .menu ul {
@@ -853,6 +888,12 @@ body{
 
     .menu ul li {
         margin: 10px;
+    }
+
+    header img {
+        width: 48px;
+        height: 48px;
+        left: 15px;
     }
 
     .bl1-back-text, .footer-back {
@@ -921,13 +962,10 @@ body{
 
 /* Адаптивность для мобильных (≤576px) */
 @media (max-width: 576px) {
-    .container {
-        max-width: 100%;
-        padding: 0 10px;
-    }
-
     .burger {
         display: block;
+        position: relative;
+        left: 15px;
         z-index: 10;
     }
 
@@ -940,6 +978,7 @@ body{
         height: 100%;
         background: #011845;
         padding: 60px 10px 10px;
+        margin-left: 0;
         z-index: 5;
     }
 
@@ -958,11 +997,14 @@ body{
 
     .header-logo {
         font-size: 20px;
+        left: 15px;
     }
 
     header img {
         width: 40px;
         height: 40px;
+        left: 15px;
+        top: 10px;
     }
 
     .bl1-back-text, .footer-back {
@@ -1042,7 +1084,7 @@ body{
         width: 100%;
     }
 
-    .text-about, .text-menu, .text-delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
+    .text-about, .text-menu, .text Delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
         width: 100%;
         position: static;
     }
