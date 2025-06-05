@@ -841,10 +841,6 @@ body{
     cursor: pointer;
     padding: 10px;
     color: #E8EDFF;
-    position: absolute;
-    left: 15px;
-    top: 20px;
-    z-index: 11;
 }
 
 /* Сохранение десктопной компоновки */
@@ -888,6 +884,7 @@ header img {
 
     .menu {
         margin-left: auto;
+        padding: 0;
     }
 
     .menu ul {
@@ -904,6 +901,7 @@ header img {
         width: 48px;
         height: 48px;
         left: 15px;
+        top: 15px;
     }
 
     .bl1-back-text, .footer-back {
@@ -923,7 +921,7 @@ header img {
     .img-shrimp, .img-food, .img-food2, .img-moto, .img-bron, .contacts-img, .cook {
         max-width: 80%;
         margin: 0 auto;
-        position: static !important; /* Переопределяем фиксированные позиции */
+        position: static !important;
     }
 
     .block3-back, .block6-back {
@@ -974,6 +972,10 @@ header img {
 @media (max-width: 576px) {
     .burger {
         display: block;
+        position: absolute;
+        left: 15px;
+        top: 20px;
+        z-index: 11;
     }
 
     .menu {
@@ -990,12 +992,15 @@ header img {
     }
 
     .menu-toggle:checked ~ .menu {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .menu ul {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .menu ul li {
@@ -1005,7 +1010,7 @@ header img {
 
     .header-logo {
         font-size: 20px;
-        left: 15px;
+        left: 60px; /* Увеличиваем отступ, чтобы не перекрывать бургер */
     }
 
     header img {
