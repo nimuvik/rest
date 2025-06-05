@@ -821,3 +821,229 @@ footer{
 body{
     height: 6960px;
 }
+
+/* Стили для чекбокс-меню */
+.menu-toggle {
+    display: none;
+}
+
+.burger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    color: #E8EDFF;
+}
+
+/* Адаптивность для планшетов (≤992px) */
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+        padding: 0 15px;
+    }
+
+    .header-logo {
+        font-size: 24px;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu ul li {
+        margin: 10px;
+    }
+
+    .bl1-back-text, .footer-back {
+        font-size: 8rem;
+    }
+
+    .block1-h, .text-story, .text-iskush, .text-bluda, .text-zapomn, .text-fast, .text-moscow, .text-besc, .text-doc, .text-oazis, .text-predl, .text-zabron, .text-luchsh, .text-sea, .text-people {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .block1-text1, .block2-text, .block3-main-text, .block4-text, .block5-text, .block6-main-text {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .img-shrimp, .img-food, .img-food2, .img-moto, .img-bron, .contacts-img, .cook {
+        max-width: 80%;
+        margin: 0 auto;
+        position: static;
+    }
+
+    .block3-back, .block6-back {
+        width: 100%;
+        left: 0;
+    }
+
+    .properties, .reviews, .line1, .line2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block4-text1, .block4-text2, .block4-text3 {
+        width: 100%;
+        position: static;
+    }
+
+    .line1 input, .line2 input, .line3 input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-about, .footer-poset {
+        left: 0;
+        top: 0;
+        margin-top: 20px;
+    }
+
+    .grad1, .grad2, .grad4, .grad5, .grad8 {
+        width: 50vw;
+        height: 50vw;
+        position: static;
+        margin: 20px auto;
+    }
+
+    .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .text-about, .text-menu, .text-delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
+        width: 100%;
+        position: static;
+    }
+}
+
+/* Адаптивность для мобильных (≤576px) */
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .burger {
+        display: block;
+        z-index: 10;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #011845;
+        padding: 60px 10px 10px;
+        z-index: 5;
+    }
+
+    .menu-toggle:checked ~ .menu {
+        display: block;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin: 15px 0;
+    }
+
+    .header-logo {
+        font-size: 20px;
+    }
+
+    header img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .bl1-back-text, .footer-back {
+        font-size: 5rem;
+    }
+
+    .block1-h, .text-story, .text-iskush, .text-bluda, .text-zapomn, .text-fast, .text-moscow, .text-besc, .text-doc, .text-oazis, .text-predl, .text-zabron, .text-luchsh, .text-sea, .text-people {
+        font-size: 28px;
+    }
+
+    .block1-text1, .block2-text, .block3-main-text, .block4-text, .block5-text, .block6-main-text {
+        font-size: 14px;
+    }
+
+    .block1-menu, .block2-btn, .block3-btn, .block6-main-btn, .bron-btn {
+        width: 100%;
+        max-width: 250px;
+        font-size: 20px;
+        height: 60px;
+    }
+
+    .block3-main-btn {
+        width: 100%;
+        max-width: 160px;
+        font-size: 16px;
+    }
+
+    .img-shrimp, .img-food, .img-food2, .img-moto, .img-bron, .contacts-img, .cook {
+        max-width: 100%;
+        position: static;
+    }
+
+    .grad1, .grad2, .grad4, .grad5, .grad8 {
+        width: 80vw;
+        height: 80vw;
+        position: static;
+        margin: 10px auto;
+    }
+
+    .block3-back, .block6-back {
+        width: 100%;
+        padding: 10px;
+        position: static;
+    }
+
+    .arrows, .arrows2, .arrows3 {
+        display: none;
+    }
+
+    .block4-text3, .contacts {
+        left: 0;
+        top: 0;
+        position: static;
+    }
+
+    .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+        position: static;
+        left: 0;
+    }
+
+    .years, .policy, .design {
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: static;
+    }
+
+    form {
+        position: static;
+        width: 100%;
+    }
+
+    .text-about, .text-menu, .text-delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
+        width: 100%;
+        position: static;
+    }
+}
