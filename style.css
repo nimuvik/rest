@@ -822,6 +822,14 @@ body{
     height: 6960px;
 }
 
+/* Стили для не кликабельного текста меню */
+.menu ul li {
+    font-size: 16px;
+    color: #0000EE; /* Синий цвет как в шаблоне */
+    text-decoration: none; /* Убираем подчеркивание */
+    margin-left: 50px;
+}
+
 /* Стили для чекбокс-меню */
 .menu-toggle {
     display: none;
@@ -833,12 +841,17 @@ body{
     cursor: pointer;
     padding: 10px;
     color: #E8EDFF;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    z-index: 11;
 }
 
-/* Корректировка десктопной компоновки (если что-то сбилось) */
+/* Сохранение десктопной компоновки */
 header {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .header-logo {
@@ -856,10 +869,6 @@ header {
 .menu ul {
     display: flex;
     list-style-type: none;
-}
-
-.menu ul li {
-    margin-left: 50px;
 }
 
 header img {
@@ -888,6 +897,7 @@ header img {
 
     .menu ul li {
         margin: 10px;
+        font-size: 14px;
     }
 
     header img {
@@ -913,12 +923,12 @@ header img {
     .img-shrimp, .img-food, .img-food2, .img-moto, .img-bron, .contacts-img, .cook {
         max-width: 80%;
         margin: 0 auto;
-        position: static;
+        position: static !important; /* Переопределяем фиксированные позиции */
     }
 
     .block3-back, .block6-back {
         width: 100%;
-        left: 0;
+        left: 0 !important;
     }
 
     .properties, .reviews, .line1, .line2 {
@@ -928,7 +938,7 @@ header img {
 
     .block4-text1, .block4-text2, .block4-text3 {
         width: 100%;
-        position: static;
+        position: static !important;
     }
 
     .line1 input, .line2 input, .line3 input {
@@ -937,26 +947,26 @@ header img {
     }
 
     .footer-about, .footer-poset {
-        left: 0;
-        top: 0;
+        left: 0 !important;
+        top: 0 !important;
         margin-top: 20px;
     }
 
     .grad1, .grad2, .grad4, .grad5, .grad8 {
         width: 50vw;
         height: 50vw;
-        position: static;
+        position: static !important;
         margin: 20px auto;
     }
 
     .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
-        position: static;
+        position: static !important;
         margin-bottom: 20px;
     }
 
     .text-about, .text-menu, .text-delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
         width: 100%;
-        position: static;
+        position: static !important;
     }
 }
 
@@ -964,9 +974,6 @@ header img {
 @media (max-width: 576px) {
     .burger {
         display: block;
-        position: relative;
-        left: 15px;
-        z-index: 10;
     }
 
     .menu {
@@ -979,7 +986,7 @@ header img {
         background: #011845;
         padding: 60px 10px 10px;
         margin-left: 0;
-        z-index: 5;
+        z-index: 10;
     }
 
     .menu-toggle:checked ~ .menu {
@@ -993,6 +1000,7 @@ header img {
 
     .menu ul li {
         margin: 15px 0;
+        font-size: 14px;
     }
 
     .header-logo {
@@ -1034,20 +1042,20 @@ header img {
 
     .img-shrimp, .img-food, .img-food2, .img-moto, .img-bron, .contacts-img, .cook {
         max-width: 100%;
-        position: static;
+        position: static !important;
     }
 
     .grad1, .grad2, .grad4, .grad5, .grad8 {
         width: 80vw;
         height: 80vw;
-        position: static;
+        position: static !important;
         margin: 10px auto;
     }
 
     .block3-back, .block6-back {
         width: 100%;
         padding: 10px;
-        position: static;
+        position: static !important;
     }
 
     .arrows, .arrows2, .arrows3 {
@@ -1055,37 +1063,37 @@ header img {
     }
 
     .block4-text3, .contacts {
-        left: 0;
-        top: 0;
-        position: static;
+        left: 0 !important;
+        top: 0 !important;
+        position: static !important;
     }
 
     .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
-        position: static;
+        position: static !important;
         margin-bottom: 20px;
     }
 
     .footer {
         width: 100%;
         height: auto;
-        position: static;
-        left: 0;
+        position: static !important;
+        left: 0 !important;
     }
 
     .years, .policy, .design {
-        left: 0;
-        top: 0;
+        left: 0 !important;
+        top: 0 !important;
         width: 100%;
-        position: static;
+        position: static !important;
     }
 
     form {
-        position: static;
+        position: static !important;
         width: 100%;
     }
 
-    .text-about, .text-menu, .text Delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
+    .text-about, .text-menu, .text-delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
         width: 100%;
-        position: static;
+        position: static !important;
     }
 }
