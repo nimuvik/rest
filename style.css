@@ -822,14 +822,6 @@ body{
     height: 6960px;
 }
 
-/* Стили для не кликабельного текста меню */
-.menu ul li {
-    font-size: 16px;
-    color: #0000EE; /* Синий цвет как в шаблоне */
-    text-decoration: none; /* Убираем подчеркивание */
-    margin-left: 50px;
-}
-
 /* Стили для чекбокс-меню */
 .menu-toggle {
     display: none;
@@ -843,48 +835,15 @@ body{
     color: #E8EDFF;
 }
 
-/* Сохранение десктопной компоновки */
-header {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.header-logo {
-    font-size: 28px;
-    font-family: oceanic trial;
-    position: relative;
-    left: 120px;
-}
-
-.menu {
-    font-size: 16px;
-    margin-left: 300px;
-}
-
-.menu ul {
-    display: flex;
-    list-style-type: none;
-}
-
-header img {
-    width: 56px;
-    height: 56px;
-    position: relative;
-    top: 20px;
-    left: 300px;
-}
-
 /* Адаптивность для планшетов (≤992px) */
 @media (max-width: 992px) {
-    .header-logo {
-        font-size: 24px;
-        left: 15px;
+    .container {
+        max-width: 750px;
+        padding: 0 15px;
     }
 
-    .menu {
-        margin-left: auto;
-        padding: 0;
+    .header-logo {
+        font-size: 24px;
     }
 
     .menu ul {
@@ -894,14 +853,6 @@ header img {
 
     .menu ul li {
         margin: 10px;
-        font-size: 14px;
-    }
-
-    header img {
-        width: 48px;
-        height: 48px;
-        left: 15px;
-        top: 15px;
     }
 
     .bl1-back-text, .footer-back {
@@ -921,12 +872,12 @@ header img {
     .img-shrimp, .img-food, .img-food2, .img-moto, .img-bron, .contacts-img, .cook {
         max-width: 80%;
         margin: 0 auto;
-        position: static !important;
+        position: static;
     }
 
     .block3-back, .block6-back {
         width: 100%;
-        left: 0 !important;
+        left: 0;
     }
 
     .properties, .reviews, .line1, .line2 {
@@ -936,7 +887,7 @@ header img {
 
     .block4-text1, .block4-text2, .block4-text3 {
         width: 100%;
-        position: static !important;
+        position: static;
     }
 
     .line1 input, .line2 input, .line3 input {
@@ -945,37 +896,39 @@ header img {
     }
 
     .footer-about, .footer-poset {
-        left: 0 !important;
-        top: 0 !important;
+        left: 0;
+        top: 0;
         margin-top: 20px;
     }
 
     .grad1, .grad2, .grad4, .grad5, .grad8 {
         width: 50vw;
         height: 50vw;
-        position: static !important;
+        position: static;
         margin: 20px auto;
     }
 
     .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
-        position: static !important;
+        position: static;
         margin-bottom: 20px;
     }
 
     .text-about, .text-menu, .text-delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
         width: 100%;
-        position: static !important;
+        position: static;
     }
 }
 
 /* Адаптивность для мобильных (≤576px) */
 @media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
     .burger {
         display: block;
-        position: absolute;
-        left: 15px;
-        top: 20px;
-        z-index: 11;
+        z-index: 10;
     }
 
     .menu {
@@ -987,37 +940,29 @@ header img {
         height: 100%;
         background: #011845;
         padding: 60px 10px 10px;
-        margin-left: 0;
-        z-index: 10;
+        z-index: 5;
     }
 
     .menu-toggle:checked ~ .menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
     }
 
     .menu ul {
         flex-direction: column;
         align-items: center;
-        width: 100%;
     }
 
     .menu ul li {
         margin: 15px 0;
-        font-size: 14px;
     }
 
     .header-logo {
         font-size: 20px;
-        left: 60px; /* Увеличиваем отступ, чтобы не перекрывать бургер */
     }
 
     header img {
         width: 40px;
         height: 40px;
-        left: 15px;
-        top: 10px;
     }
 
     .bl1-back-text, .footer-back {
@@ -1047,20 +992,20 @@ header img {
 
     .img-shrimp, .img-food, .img-food2, .img-moto, .img-bron, .contacts-img, .cook {
         max-width: 100%;
-        position: static !important;
+        position: static;
     }
 
     .grad1, .grad2, .grad4, .grad5, .grad8 {
         width: 80vw;
         height: 80vw;
-        position: static !important;
+        position: static;
         margin: 10px auto;
     }
 
     .block3-back, .block6-back {
         width: 100%;
         padding: 10px;
-        position: static !important;
+        position: static;
     }
 
     .arrows, .arrows2, .arrows3 {
@@ -1068,37 +1013,37 @@ header img {
     }
 
     .block4-text3, .contacts {
-        left: 0 !important;
-        top: 0 !important;
-        position: static !important;
+        left: 0;
+        top: 0;
+        position: static;
     }
 
     .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
-        position: static !important;
+        position: static;
         margin-bottom: 20px;
     }
 
     .footer {
         width: 100%;
         height: auto;
-        position: static !important;
-        left: 0 !important;
+        position: static;
+        left: 0;
     }
 
     .years, .policy, .design {
-        left: 0 !important;
-        top: 0 !important;
+        left: 0;
+        top: 0;
         width: 100%;
-        position: static !important;
+        position: static;
     }
 
     form {
-        position: static !important;
+        position: static;
         width: 100%;
     }
 
     .text-about, .text-menu, .text-delivery, .text-otz, .text-acs, .text-bron, .text-contacts {
         width: 100%;
-        position: static !important;
+        position: static;
     }
 }
